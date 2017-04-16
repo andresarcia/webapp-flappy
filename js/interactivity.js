@@ -1,4 +1,5 @@
- jQuery("#credits").on("dblclick",
+ // just adding a comment
+jQuery("#credits").on("dblclick",
                        function() { var message = "Game created by Morxa!";
                                     jQuery("#credits").append( "<p>" + message + "</p>" );});
 jQuery("#credits").on("click",
